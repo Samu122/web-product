@@ -1,0 +1,185 @@
+<!-- 
+
+
+
+Puedes ver al menos tres elementos cliqueables dentro del elemento nav, cafda una con la clase nav-link
+Cuando hagas click en un botón .nav-link en el elemento nav, serás redireccionado a la sección correspondiente de la página de inicio
+Puedes ver un vídeo del producto incrustado con id="video"
+Tu página de inicio tiene un elemento form con un correspondiente id="form"
+Dentro del formulario, hay un campo input con id="email", donde puedes ingresar tu dirección de email
+El campo de entrada #email debe tener un marcador de texto para que los usuarios sepan para que sirve este campo
+El campo de entrada #email usa validación HTML5 para confirmar que el texto ingresado es una dirección de email
+Dentro del formulario, hay un input de tipo submit (enviar) con su correspondiente id="submit"
+Cuendo haces click en el elemento #submit, el email es enviado a una página web (Utiliza esta URL de pruebas: https://www.freecodecamp.com/email-submit)
+La barra de navegación siempre debe estar en la parte superior de la vista
+La página de inicio de tu producto debe tener al menos una consulta de medios
+Tu página de inicio del producto debe utillizar el flexbox CSS al menos una vez
+
+
+
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header id="header">
+        <div>
+            <img id="header-img" src="https://logowik.com/content/uploads/images/437_eagle.jpg" width="100" />
+
+        </div>
+
+        <nav id="nav-bar">
+            <ul>
+                <li >
+                    <a class="nav-link" href="#Home"> Home</a>
+                </li>
+                <li >
+                    <a class="nav-link" href="#Recomendaciones"> Recomendaciones</a>
+                </li>
+                <li >
+                    <a class="nav-link" href="#Contacto"> Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="Home">
+            <h2>Descubre el Poder de la Lectura en la Era Digital</h2>
+            <div>
+                <h3>¿Buscas un mundo de nuevas oportunidades?</h3>
+                <h3>¡No busques más!</h3>
+            <h3>¿Qué obtendrás leyendo?</h3>
+                <ul class="info-Home">
+                    <li>
+                        <h4>Mente Despierta</h4>
+                        <p>La lectura estimula tu mente, mejora la concentración y expande tu pensamiento crítico. ¡Descubre ideas frescas y perspectivas fascinantes!</p>
+                    </li>
+                    <li>
+                  <h4>Escape Digital:</h4>
+                 <p>En un universo de pantallas brillantes, los libros ofrecen un refugio tranquilo. Desconéctate y sumérgete en una historia que te transporte a lugares inexplorados.</p>
+                    </li>
+                    <li>
+                        <h4>Conexión Humana:</h4>
+                        <p>Aunque las tecnologías nos conectan, la lectura conecta corazones. Compartir libros crea vínculos, generando conversaciones significativas y construyendo relaciones más fuertes.</p>
+                    </li>
+                    <li>
+                        <h4>Autoaprendizaje:</h4>
+                        <p> La lectura te permite aprender a tu propio ritmo. Encuentra temas que te apasionen y conviértete en un eterno aprendiz, todo desde la comodidad de tu sillón.</p>
+                    </li>
+                    <li>
+                        <h4>Empatía Desarrollada: </h4>
+                        <p> Los libros te permiten vivir las vidas de otros, cultivando la empatía. Descubre diferentes culturas y perspectivas, ampliando tu comprensión del mundo.</p> 
+                    </li>
+                </ul>
+                <p>En un mundo impulsado por la tecnología, la lectura sigue siendo el superpoder que te ayuda a crecer, aprender y conectarte de manera más profunda. </p>
+                   <p>¡Atrévete a abrir un libro y deja que la aventura comience! 📚✨</p> 
+            </div>
+
+        </section>
+
+
+            <section id="video" >
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/rAKX10OnXbU?si=LgDiwb_ugXUSRv46&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </section>
+
+
+        
+
+        <section id="Recomendaciones">
+            <header><h2>NUESTRAS RECOMENDACIONES</h2></header>
+
+            <div class="libros">
+                <h3>EL PODER DEL AHORA</h3>
+                <p>
+                    El poder del ahora. Se trata de uno de los mayores bestsellers a nivel mundial, en el que Tolle propone varias estrategias para centrarte en el momento presente y aprender a convivir con tu voz interior.</p>
+
+                    <p>De esta forma conseguirás reducir el sentimiento de culpa por el pasado o la ansiedad por el futuro. También aprenderás a separarte de tu mente para centrarte en las sensaciones de tu cuerpo y reducir el impacto de las emociones negativas.</p>
+
+                    <p>Se trata de un libro con un gran componente espiritual, que bebe mucho de las raíces del budismo. A pesar de ello, los beneficios del mindfulness han sido ampliamente demostrados a nivel científico y es un libro muy recomendable para leer pausadamente.</p>     
+                    
+                        <img src="https://http2.mlstatic.com/D_NQ_NP_870234-MLU72592365791_102023-O.webp" alt="">
+                    
+                </div>
+
+
+            <div class="libros">
+                <h3>EL HOMBRE EN BUSCA DE SENTIDO</h3>
+                <p>Se trata de las memorias de Viktor Frankl, un psiquiatra y neurólogo austríaco fundador de la logoterapia que entre 1942 y 1945 estuvo preso en cuatro campos de exterminio nazi, incluido Auschwitz.</p>
+                <p>
+                    Es una historia muy dura. Durante su cautiverio, sus padres, hermano y esposa embarazada murieron. Pero Frankl pudo sacar un aprendizaje de esa pesadilla: que los presos que tenían un propósito solían ser los que sobrevivían. 
+                </p>
+
+                   <p>Basándose en la experiencia vivida y en la de otros que más tarde trató en su consulta, llegó a la conclusión que no podemos evitar el sufrimiento, pero podemos elegir cómo enfrentarlo, encontrarle sentido y seguir adelante con un propósito renovado.</p>
+
+                   <p>La teoría que presenta en este libro sostiene que nuestro impulso principal en la vida no es el placer, como hasta entonces defendía Freud, sino la búsqueda de lo que consideramos que tiene significado.</p>
+                    
+                    <img src="https://http2.mlstatic.com/D_NQ_NP_816926-MLA49100730533_022022-O.webp" alt="">
+                   
+                     
+                    
+            </div class="libros">
+            <div>
+                <h3>COMO GANAR AMIGOS E INFLUIR SOBRE LAS PERSONAS</h3>
+                <p>Uno de los primeros best sellers de autoayuda, fue publicado por primera vez en 1936 y lleva vendidas 15 millones de copias a nivel mundial.</p>
+
+                 <p> Dale Carnegie escribió este libro con el propósito de ser un suplemento a su curso sobre oratoria y relaciones humanas y nunca se imaginó que se convertiría en un éxito de ventas y que la gente lo leería, lo criticaría y viviría según sus reglas. Carnegie entrevistó a muchas personas de renombre para tomar ejemplos de sus vidas. Entre ellas están Edison, Franklin D. Rooselvelt y James Farley</p>
+
+                 
+                    <img src="https://http2.mlstatic.com/D_NQ_NP_711727-MLU72592259401_102023-O.webp" alt="">
+                 
+            </div>
+        </section>
+
+        <section id="Contacto">
+    
+            <div class="div_Contacto">
+                <form id="form">
+                    
+                    <h3>Do you want a personalized cover?</h3>
+                              <p>Tell us your design in no more than 150 characters.</p>
+
+                        <fieldset id="registro">   
+                            <label id="name-label" value="name"> Your Name:
+                            <input id="name" name="name" type="text" required placeholder=" Type Your Name" /></label>
+
+                            <div></div>
+
+                        <label id="email-label" value="email">Your Email:
+                            <input id="email" name="email" type="email" required
+                                placeholder=" Type Your Email" /></label>
+
+                            <div></div>
+
+                        <label id="number-label" value="phone"> Phone:
+                            <input id="number" name="number" type="number" min="1" max="99999999" required
+                                placeholder=" Type Your Phone Number" /></label>
+
+                            <div></div>
+
+                        <label>
+                            <textarea id="pedido" name="pedido" rows="3" value="pedido" placeholder="How would you like your cover???.."></textarea>      
+                            <div></div> 
+                            <label for="terms-and-conditions">
+                            <input class="inline" id="terms-and-conditions" type="checkbox" value="terms-and-conditions" required name="terms-and-conditions" /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+                          </label> 
+                          <div>
+                            <input id="submit" type="submit" action="https://www.freecodecamp.com/email-submit">
+                         </div>
+
+                        </fieldset>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+
+</html>

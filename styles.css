@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box ;
+    min-width: 300px;
+}
+
+
+h2 { 
+    font-size: 1.9rem;
+    text-align: center;
+}
+h3 { 
+    font-size: 1.6rem;
+    text-align: center;
+}
+h4 { 
+    font-size: 1.3rem;
+    text-align: center;
+}
+p { 
+    font-size: 1.1rem;
+    text-align: center;
+}
+ 
+
+#header {
+    background-color: rgba(245, 209, 112, 0.969);
+
+}
+
+header #header-img {
+    margin: 0;
+    height: 150px;
+    width: auto;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+}
+
+header #nav-bar li {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 15px;
+} 
+
+header #nav-bar a {
+    padding: 5px 12px;
+    font-size: 700;
+    color: black;
+    text-decoration: none;
+}
+
+
+body {
+    line-height: 200%;
+    font-family: "Courier New", monospace;
+    margin: 0;
+    height: 100vh;
+    background-color: #d9d8ce;
+}
+
+
+#Home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin: auto;
+
+}
+    
+
+
+#Home .info-Home {
+ display: block;
+ list-style-position: outside;
+ margin: 0;
+ padding: 10px;
+}
+
+
+#Recomendaciones {
+
+    justify-content: center;
+    background-color: #bbb;
+}
+
+#Recomendaciones .image {
+    display: fel;
+    grid-template-columns: 1fr;
+    gap: 16px;
+}
+
+@media ( width > 300px) {}
+
+#Recomendaciones .image img {
+
+    
+}
+    
+
+    
+
+
+#Recomendaciones div {
+   padding: 50px 10px;   
+    width: 100%;
+    
+}
+
+
+form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 1em;
+  }
+  fieldset {
+    border: none;
+    padding: 2rem 0;
+    }
+  
+/* Sirve Para Remover El Fondo De Las Img 
+.remove.bg {
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+}
+*/
